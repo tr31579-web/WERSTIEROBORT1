@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+#canvas-container {
+    width: 100vw;
+    height: 80vh;
+}
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #00ccff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0099cc;
+}
